@@ -22,7 +22,14 @@ void leercadena(char *cadena, int longitud);
 int leer_entero();
 int menu();
 
-void crear_venta(struct Venta ventas[], int *num_ventas, struct Producto productos[], int cantidad_productos, struct Clientes clientes[], int cantidad_clientes);
+void crear_venta(struct Venta ventas[], 
+                 int *num_ventas, 
+                 struct Producto productos[], 
+                 int cantidad_productos, 
+                 struct Clientes clientes[], 
+                 int cantidad_clientes
+                );
+                
 void visualizar_productos(struct Producto productos[], int cantidad);
 void listar_ventas(struct Venta ventas[], int num_ventas);
 void buscar_venta(struct Venta ventas[], int num_ventas);

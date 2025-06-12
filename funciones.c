@@ -49,7 +49,13 @@ void visualizar_productos(struct Producto productos[], int cantidad) {
     }
 }
 
-void crear_venta(struct Venta ventas[], int *num_ventas, struct Producto productos[], int cantidad_productos, struct Clientes clientes[], int cantidad_clientes) {
+void crear_venta(struct Venta ventas[], 
+                 int *num_ventas, 
+                 struct Producto productos[], 
+                 int cantidad_productos, 
+                 struct Clientes clientes[], 
+                 int cantidad_clientes
+                ) {
     int hay_clientes = 0;
     int cliente_idx = -1;
 
